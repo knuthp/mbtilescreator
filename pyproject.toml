@@ -7,7 +7,10 @@ authors = [
     { name = "Knut H Pedersen", email = "knuthp@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "osmium>=4.2.0",
+    "streamlit>=1.51.0",
+]
 
 [project.scripts]
 mbtilescreator = "mbtilescreator:main"
